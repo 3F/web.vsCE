@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="post">
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+  
+{% assign contentSize = content | trim | size %}
+{% if contentSize < 1 %}
+  {% include elem/fillme %}
+{% endif %}
+
+</div>
+
+{% include editpage.html %}
+
+<br /><br />

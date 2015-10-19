@@ -1,0 +1,75 @@
+# Site settings
+title: vsCommandEvent
+subtitle: Flexible actions for all  ...
+email: entry.reg@gmail.com
+baseurl: ""
+url: "http://vsce.r-eg.net" # base hostname
+
+# root path to doc structure
+docp: "/doc"
+#permalink: pretty
+
+collections:
+    doc: # main documentation
+        output: true
+
+
+# Build settings
+markdown: redcarpet
+
+redcarpet:
+  extensions: ["tables", "no_intra_emphasis", "fenced_code_blocks", "strikethrough", "superscript", "with_toc_data", "space_after_headers", "footnotes", "prettify"]
+
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
+    auto_ids: true # generate ID for headings
+    input: GFM # +GitHub Flavored Markdown
+  
+highlighter: pygments
+
+
+#######################################
+# Latest binaries
+##############
+
+# Downloads
+         # Specifies variables with prefix:
+            # 'lnkCur_' - Actual or recommended version. /Format: [ "short name", "full name", "link" ]
+            # 'lnkList_' - List of all previous versions. /Format: [ [ "version or short name", "full name", "link" ], ... ]
+            # 'lnkOld_' - List of all deprecated versions. /Format: [ [ "version or short name", "full name", "link" ], ... ]
+            # 'lnkAll_' - Link to browsing all available versions. /Format: [ "name", "link" ]
+
+
+## VSPackage
+
+lnkCur_VSPackage:   [ "v1.0.0", "vsCommandEvent_v1.0.0.vsix", "http://visualstudiogallery.msdn.microsoft.com/0d1dbfd7-ed8a-40af-ae39-281bfeca2334/referral/118151" ]
+lnkList_VSPackage:  [
+                        [ "v1.0.0", "vsCommandEvent_v1.0.0.vsix", "http://sourceforge.net/projects/vssbe/files/v0.x/vsCommandEvent_v0.12.2.vsix/download" ]
+                    ]
+lnkOld_VSPackage:   []
+lnkAll_VSPackage:   [ "/v0.x/", "http://sourceforge.net/projects/vssbe/files/v0.x/" ]
+
+
+#######################################
+# Sources
+##############
+
+# Web
+
+lnkVSGallery: "http://visualstudiogallery.msdn.microsoft.com/0d1dbfd7-ed8a-40af-ae39-281bfeca2334/"
+
+# Dev
+
+lnkBackupLib: [ "/dev/lib/", "http://sourceforge.net/projects/vssbe/files/dev/lib/"]
+lnkBackupSrc: [ "/dev/sources/", "https://sourceforge.net/projects/vssbe/files/dev/sources/" ]
+
+
+# other
+
+changelog: "https://raw.githubusercontent.com/3F/vsCommandEvent/master/changelog.txt"
+changelogVSSBE: "https://raw.githubusercontent.com/3F/vsSolutionBuildEvent/master/changelog.txt"
+
+readme: "https://raw.githubusercontent.com/3F/vsCommandEvent/master/README.md"
+license: "https://raw.githubusercontent.com/3F/vsCommandEvent/master/LICENSE"
+
+versionVsix: "https://raw.githubusercontent.com/3F/vsCommandEvent/master/.version"

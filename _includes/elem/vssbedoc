@@ -1,0 +1,2 @@
+{% assign infoData = "For current page, your should use documentation from **vsSolutionBuildEvent** <br /> <span class='glyphicon glyphicon-hand-right nav-gicon' aria-hidden='true'></span> {{vssbeLink}} <br />All below will describe **only about differences** for vsCommandEvent if an exists." | replace:'{{vssbeLink}}',{{vssbeLink}} %}
+{% include elem/info %}

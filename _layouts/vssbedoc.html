@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="post">
+  
+{% assign url = page.permalink | escape_once %}
+{% assign vssbeLink = "[vssbe.r-eg.net{{name}}](http://vssbe.r-eg.net{{url}})" | replace:'{{name}}',page.permalink | replace:'{{url}}',{{url}}) %}
+{% include elem/vssbedoc %}
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+{% assign contentSize = content | trim | size %}
+{% if contentSize < 1 %}
+  {% include elem/fillme %}
+{% endif %}
+
+</div>
+
+{% include editpage.html %}
+
+<br /><br />

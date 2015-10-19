@@ -1,0 +1,72 @@
+---
+layout: default
+title: Changelist
+---
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Changelist</h3>
+  </div>
+  <ul class="nav nav-tabs" style="margin-left: 0;">
+    <li id="vsix"><a aria-expanded="true" href="#vsix" data-toggle="tab">Main library</a></li>
+    <li id="vssbe"><a aria-expanded="false" href="#vssbe" data-toggle="tab">vsSBE core</a></li>
+  </ul>
+  <pre id="content" class="panel-body tab-content" style="overflow: auto; height: 500px;">
+  </pre>
+</div>
+<div id="progress" class="progress progress-striped active">
+  <div class="progress-bar" style="width: 75%"></div>
+</div>
+
+<span id="msgWarn" style="display: none;">
+  <div class="panel panel-warning">
+    <div class="panel-heading">
+      <h4 class="panel-title">Something went wrong...</h4>
+    </div>
+    <div class="panel-body">
+      We can't receive file from:
+      <a target="_blank" href="%changelogUrl%">%changelogUrl%</a>
+      Please try again later or use feedback
+    </div>
+  </div>
+</span>
+
+<script>
+  
+  $(function(){
+      'use strict';
+      
+      var loadLog = function(url, to)
+      {
+          $("#progress").show();
+          $.get(url, function(data)
+          {
+            if(data != null && data.length > 0){
+              to.html(data);
+            }
+            $("#progress").hide();
+          })
+          .fail(function() {
+              to.html($('#msgWarn').html().replace(/%changelogUrl%/g, url));
+          });
+      };
+  
+      $('#vsix').click(function(){
+          loadLog("{{site.changelog}}", $('#content'));
+          window.location.hash = this.id;
+      });
+      $('#vssbe').click(function(){
+          loadLog("{{site.changelogVSSBE}}", $('#content'));
+          window.location.hash = this.id;
+      });
+      
+      // intial
+      var hash = window.location.hash;
+      if(hash.length < 1 || $(hash).length < 1){
+          hash = "#vsix";
+      }      
+      $(hash).click();
+      $(hash).addClass("active");
+  });
+  
+</script>

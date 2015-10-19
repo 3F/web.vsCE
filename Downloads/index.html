@@ -1,0 +1,241 @@
+---
+layout: default
+title: Downloads
+---
+
+<div id="Binaries" class="panel panel-success">
+  <div class="panel-heading">
+    <h3 class="panel-title"><a href="#Binaries">Binaries</a></h3>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped table-hover ">
+      <tbody>
+        <tr>
+          <td width="22%">
+            <div><a href="/Changelist/#vsix"><img src="/etc/badges/VSPackage.svg" alt="VSPackage" /></a></div>
+          </td>
+          <td width="60%">The main plugin as manager of commands with flexible actions.</td>
+          <td>
+            {% assign lnkCur = site.lnkCur_VSPackage %}
+            {% assign lnkList = site.lnkList_VSPackage %}
+            {% assign lnkOld = site.lnkOld_VSPackage %}
+            {% assign lnkAll = [] %}
+            {% include pat/vdownload.html %}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div><a href="http://vssbe.r-eg.net/Downloads/">vsSolutionBuildEvent</a></div>
+          </td>
+          <td>Parent engine to support the product line of MS Visual Studio & MSBuild tools.</td>
+          <td>
+            <div class="btn-group">
+              <a href="http://vssbe.r-eg.net/Downloads/" class="btn btn-default">Download</a>                          
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="panel panel-default small">
+              <div class="panel-heading small">
+                <h3 class="panel-title small">Unofficial mirrors</h3>
+              </div>
+              <div class="panel-body small">
+                In the last time we are seeing a lot of errors with SourceForge.net! <i>(<a href="https://twitter.com/sfnet_ops" target="_blank">such as</a>)</i><br />
+                As variant, you can try to get all binaries from <strong>unofficial mirrors</strong>, for example:
+                
+                <table class="table table-striped table-hover ">
+                  <tbody>
+                    <tr>
+                      <td>osdn.jp</td>
+                      <td>Automatic collector from sf.net</td>
+                      <td><a href="#" target="_blank"></a></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <i>or use any our available contacts if you still have problems with getting.</i>
+                
+              </div>
+            </div>            
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div id="Code" class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title"><a href="#Code">Source Code</a></h3>
+  </div>
+  <div class="panel-body">
+    <p>
+      Use pull request in any services below for your awesome improvements and patches.  
+      Or send this directly as <strong>.patch</strong> file with available contacts. 
+      <i>For complex logic(as for our lexers, analyzers etc.) please also provide a correct new unit-tests.</i>
+    </p>
+    <table class="table table-striped table-hover ">
+      <tbody>
+        <tr>
+          <td width="24%">Repository on <img src="{{ site.baseurl }}/img/GitHub_Logo_57x23.png" width="57" height="23" border="0" /></td>
+          <td width="70%">
+            <div class="form-group has-success">
+              <label class="control-label" for="inputSuccess">Clone with HTTPS:</label>
+              <input class="form-control" id="inputSuccess" type="text" value="git clone https://github.com/3F/vsCommandEvent.git" />
+            </div>
+            <div class="form-group has-success">
+              <label class="control-label" for="inputSuccess">Clone with SSH:</label>
+              <input class="form-control" id="inputSuccess" type="text" value="git clone git@github.com:3F/vsCommandEvent.git" />
+            </div>            
+          </td>
+          <td>
+            <div class="panel panel-success small">
+              <div class="panel-heading">
+                <h3 class="panel-title">Fork me on GitHub</h3>
+              </div>
+              <div class="panel-body small">
+                <div class="list-group">
+                  <a href="https://github.com/3F/vsCommandEvent/" target="_blank" class="list-group-item">vsCommandEvent/</a>
+                  <a href="https://github.com/3F/vsCommandEvent/fork" target="_blank" class="list-group-item">vsCommandEvent/fork</a>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Repository on <img src="{{ site.baseurl }}/img/logoBitBucketPNG_97x28.png" width="97" height="28" border="0" /></td>
+          <td>
+            <div class="form-group has-success">
+              <label class="control-label" for="inputSuccess">Clone with HTTPS:</label>
+              <input class="form-control" id="inputSuccess" type="text" value="git clone https://bitbucket.org/3F/vscommandevent.git" />
+            </div>
+            <div class="form-group has-success">
+              <label class="control-label" for="inputSuccess">Clone with SSH:</label>
+              <input class="form-control" id="inputSuccess" type="text" value="git clone git@bitbucket.org:3F/vscommandevent.git" />
+            </div>            
+          </td>
+          <td>
+            <div class="panel panel-success small">
+              <div class="panel-heading">
+                <h3 class="panel-title">Fork me on Bitbucket</h3>
+              </div>
+              <div class="panel-body small">
+                <div class="list-group">
+                  <a href="https://bitbucket.org/3F/vscommandevent/overview" target="_blank" class="list-group-item">vscommandevent/</a>
+                  <a href="https://bitbucket.org/3F/vscommandevent/fork" target="_blank" class="list-group-item">vscommandevent/fork</a>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://bitbucket.org/3F/vscommandevent/commits/all" target="_blank">Commits log</a>
+          </td>
+          <td colspan="2">
+            <ul>
+              <li><img src="https://ci.appveyor.com/api/projects/status/l38xn0j2c5an28e1/branch/master?svg=true&passingText=master:%20%20passing&failingText=master:%20%20failing&pendingText=master:%20%20pending" title="master branch" /></li>
+              <li><img src="https://ci.appveyor.com/api/projects/status/l38xn0j2c5an28e1/branch/develop?svg=true&passingText=develop:%20passing&failingText=develop:%20failing&pendingText=develop:%20pending" title="develop branch" /></li>
+              <li><img src="https://ci.appveyor.com/api/projects/status/l38xn0j2c5an28e1/branch/hotfixes?svg=true&passingText=hotfixes:%20passing&failingText=hotfixes:%20failing&pendingText=hotfixes:%20pending" title="hotfixes branch" /></li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div id="NightlyBuilds" class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title"><a href="#NightlyBuilds">Nightly builds</a></h3>
+  </div>
+  <div class="panel-body">
+    
+    <span class="label label-danger">Please note!</span>
+    <p class="small"> All binaries below can be unstable or not work at all. Use this for tests of latest changes: fixes, new features, etc.</p>
+    
+    <table class="table table-striped table-hover ">
+      <tbody>
+        <tr>
+          <td width="15%">hotfixes</td>
+          <td>Latest binaries from <a href="https://bitbucket.org/3F/vscommandevent/commits/branch/hotfixes" target="branch">hotfixes branch</a>.</td>
+          <td width="50%"><a href="https://ci.appveyor.com/project/3Fs/vssolutionbuildevent/branch/hotfixes/artifacts" target="_blank" class="btn btn-default">Test</a></td>
+        </tr>
+        <tr>
+          <td>master</td>
+          <td>Latest binaries from <a href="https://bitbucket.org/3F/vscommandevent/commits/branch/master" target="branch">master branch</a>.</td>
+          <td><a href="https://ci.appveyor.com/project/3Fs/vssolutionbuildevent/branch/master/artifacts" target="_blank" class="btn btn-default">Test</a></td>
+        </tr>
+        <tr>
+          <td>develop</td>
+          <td>Latest binaries from <a href="https://bitbucket.org/3F/vscommandevent/commits/branch/develop" target="branch">develop branch</a>.</td>
+          <td><a href="https://ci.appveyor.com/project/3Fs/vssolutionbuildevent/branch/develop/artifacts" target="_blank" class="btn btn-default">Test</a></td>
+        </tr>
+        <tr>
+          <td>~</td>
+          <td><a href="https://ci.appveyor.com/project/3Fs/vssolutionbuildevent/history" target="branch">All branch-binaries</a></td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table> 
+  </div>
+</div>
+
+<div id="Snapshots" class="panel panel-warning">
+  <div class="panel-heading">
+    <h3 class="panel-title"><a href="#Snapshots">Snapshots</a></h3>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped table-hover ">
+      <tbody>
+        <tr>
+          <td width="30%">The archive of public releases</td>
+          <td colspan="3"><a href="{{site.lnkBackupSrc[1]}}" target="_blank" class="btn btn-default">Open</a></td>
+        </tr>
+        <tr>
+          <td>releases branch</td>
+          <td width="5%"><a href="https://bitbucket.org/3F/vscommandevent/get/releases.tar.gz" target="snapshot" class="btn btn-primary">tar.gz</a></td>
+          <td width="5%"><a href="https://bitbucket.org/3F/vscommandevent/get/releases.tar.bz2" target="snapshot" class="btn btn-info">tar.bz2</a></td>
+          <td width="60%"><a href="https://bitbucket.org/3F/vscommandevent/get/releases.zip" target="snapshot" class="btn btn-warning">zip</a></td>
+        </tr>
+        <tr>
+          <td>master branch</td>
+          <td><a href="https://bitbucket.org/3F/vscommandevent/get/master.tar.gz" target="snapshot" class="btn btn-primary">tar.gz</a></td>
+          <td><a href="https://bitbucket.org/3F/vscommandevent/get/master.tar.bz2" target="snapshot" class="btn btn-info">tar.bz2</a></td>
+          <td><a href="https://bitbucket.org/3F/vscommandevent/get/master.zip" target="snapshot" class="btn btn-warning">zip</a></td>
+        </tr>
+        <tr>
+          <td>hotfixes branch</td>
+          <td><a href="https://bitbucket.org/3F/vscommandevent/get/hotfixes.tar.gz" target="snapshot" class="btn btn-primary">tar.gz</a></td>
+          <td><a href="https://bitbucket.org/3F/vscommandevent/get/hotfixes.tar.bz2" target="snapshot" class="btn btn-info">tar.bz2</a></td>
+          <td><a href="https://bitbucket.org/3F/vscommandevent/get/hotfixes.zip" target="snapshot" class="btn btn-warning">zip</a></td>
+        </tr>
+        <tr>
+          <td>develop branch</td>
+          <td><a href="https://bitbucket.org/3F/vscommandevent/get/develop.tar.gz" target="snapshot" class="btn btn-primary">tar.gz</a></td>
+          <td><a href="https://bitbucket.org/3F/vscommandevent/get/develop.tar.bz2" target="snapshot" class="btn btn-info">tar.bz2</a></td>
+          <td><a href="https://bitbucket.org/3F/vscommandevent/get/develop.zip" target="snapshot" class="btn btn-warning">zip</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div id="Build" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><a href="#Build">Build</a></h3>
+  </div>
+  <div class="panel-body">
+    <p>Information of how to build and all requirements for this you should see on <strong><a href="{{site.docp}}/Dev/How to build/">this page</a></strong>.</p>
+    <p>The <strong>archive</strong> of dependencies:</p>
+    <table class="table table-striped table-hover ">
+      <tbody>
+        <tr>
+          <td width="25%">Minimal libraries</td>
+          <td><a href="{{site.lnkBackupLib[1]}}" target="_blank" class="btn btn-default">Download</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+

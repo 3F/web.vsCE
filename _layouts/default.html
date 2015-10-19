@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+    
+    <!-- nav line -->
+    {% assign _page = {{page.url | remove: "index.html"}} | split: "/" %}
+    {% if _page.size > 2 %}
+    
+      <div class="wrapper small">
+        <ul class="breadcrumb small">
+          <li>
+            <span class="glyphicon glyphicon-home nav-gicon" aria-hidden="true"></span>
+            <a href="/">Home</a>
+          </li>
+          
+          {% assign url = {{site.docp}} %}
+          {% for p in _page | offset: 2 %}
+            {% assign url = {{url}} | append: "/" | append: {{p}} %}
+            {% if forloop.last %}
+              <li class="active">{{p}}</li>
+              {% break %}
+            {% endif %}
+            <li><a href="{{url}}/">{{p}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    
+    {% else %}
+    
+      {% if _page.size != 0 %}
+        <div class="wrapper small">
+          <ul class="breadcrumb small">
+            <li>
+              <span class="glyphicon glyphicon-home nav-gicon" aria-hidden="true"></span>
+              <a href="/">Home</a>
+            </li>
+            <li class="active">{{_page[1] | remove: '.html'}}</li>
+          </ul>
+        </div>
+      {% endif %}
+    
+    {% endif %}
+    <!-- /nav line -->
+    
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+    
+    <div class="wrapper">
+      {% include share.html %}
+      {% if page.layout == "doc" %}
+        {% include disqus.html %}
+      {% endif %}
+    </div>
+    {% include footer.html %}
+  </body>
+
+</html>
