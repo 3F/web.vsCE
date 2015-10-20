@@ -42,12 +42,12 @@ highlighter: pygments
 
 ## VSPackage
 
-lnkCur_VSPackage:   [ "v1.0.0", "vsCommandEvent_v1.0.0.vsix", "http://visualstudiogallery.msdn.microsoft.com/0d1dbfd7-ed8a-40af-ae39-281bfeca2334/referral/118151" ]
+lnkCur_VSPackage:   [ "v1.0.0", "vsCommandEvent_v1.0.0.vsix", "https://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/file/184640/" ]
 lnkList_VSPackage:  [
-                        [ "v1.0.0", "vsCommandEvent_v1.0.0.vsix", "http://sourceforge.net/projects/vssbe/files/v0.x/vsCommandEvent_v0.12.2.vsix/download" ]
+                        [ "v1.0.0", "vsCommandEvent_v1.0.0.vsix", "http://sourceforge.net/projects/vssbe/files/" ]
                     ]
 lnkOld_VSPackage:   []
-lnkAll_VSPackage:   [ "/v0.x/", "http://sourceforge.net/projects/vssbe/files/v0.x/" ]
+lnkAll_VSPackage:   [ "/v1.x/", "https://sourceforge.net/projects/vssbe/files/vsCommandEvent/v1.x/" ]
 
 
 #######################################
@@ -56,7 +56,7 @@ lnkAll_VSPackage:   [ "/v0.x/", "http://sourceforge.net/projects/vssbe/files/v0.
 
 # Web
 
-lnkVSGallery: "http://visualstudiogallery.msdn.microsoft.com/0d1dbfd7-ed8a-40af-ae39-281bfeca2334/"
+lnkVSGallery: "http://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/"
 
 # Dev
 

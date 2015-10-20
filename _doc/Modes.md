@@ -8,7 +8,7 @@ permalink: /doc/Modes/
 * Files Mode
 * Operation Mode
 * Interpreter Mode
-* [Script Mode](../Modes/Script/)
-* [Targets Mode](../Modes/Targets/)
+* Script Mode
+* Targets Mode
 * [C# Mode](../Modes/CSharp/)
 * [EnvCommand Mode](../Modes/EnvCommand/)

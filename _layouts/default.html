@@ -53,7 +53,7 @@
     
     <div class="wrapper">
       {% include share.html %}
-      {% if page.layout == "doc" %}
+      {% if page.layout == "doc" or page.layout == "vssbedoc" %}
         {% include disqus.html %}
       {% endif %}
     </div>
