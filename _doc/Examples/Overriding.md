@@ -4,6 +4,8 @@ title: Overriding of commands
 permalink: /doc/Examples/Overriding/
 ---
 
+# Overriding of commands
+
 ![Overriding](../../Resources/examples/cmds/ill.png)
 
 The all environment of any users may be flexibly changed as you want for different cases...

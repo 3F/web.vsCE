@@ -4,6 +4,8 @@ title: Stop build on first error
 permalink: /doc/Examples/Errors.Stop build/
 ---
 
+# Stop build on first error
+
 The vsCommandEvent also contains this feature and you should use **[this documentation](http://vssbe.r-eg.net/doc/Examples/Errors.Stop%20build/)**, however with next notice:
 
 Instead of "Errors-Build" event, you should configure the `Output window` tab:

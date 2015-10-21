@@ -4,6 +4,8 @@ title: Solution-wide Build Events
 permalink: /doc/Features/Solution-wide/
 ---
 
+# Solution-wide Build Events
+
 Yes, it's also possible for vsCommandEvent, it means - why not...
 
 ## How to

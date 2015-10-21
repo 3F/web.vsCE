@@ -4,6 +4,8 @@ title: Automatic Version Numbering
 permalink: /doc/Examples/Version number/
 ---
 
+# Automatic Version Numbering
+
 ![Version class](../../Resources/examples/VersionClass.gif)
 
 Yes, it's also possible for vsCommandEvent, it means - why not...
