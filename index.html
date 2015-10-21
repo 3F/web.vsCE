@@ -5,10 +5,6 @@ title: vsCommandEvent
 
 <div class="home">
   
-  {% assign infoColor = "#D78C68" %}
-  {% assign infoData = "Moving of documentations are not completed. Part of information **may be** temporary unavailable." %}
-  {% include elem/info %}
-  
   <p>
     <a href="{{site.lnkCur_VSPackage[2]}}" class="btn btn-primary btn-sm">Download .vsix</a>
   </p>
@@ -76,7 +72,10 @@ title: vsCommandEvent
           
         </td>
         <td width="25%">
-          <a href="{{site.docp}}/Scheme/#model-of-events"><img src="{{site.docp}}/Resources/events_model.png" width="298" height="199" /></a>
+          <a href="/Screenshots/">
+            <img src="{{site.docp}}/Resources/Screenshots/menu.png" width="298" height="275" />
+            <!--{% assign img = "Screenshots/menu.png" %}{% assign attr = "width='298' height='275'" %}{% include elem/lightbox %}-->
+          </a>
         </td>        
       </tr>
     </tbody>

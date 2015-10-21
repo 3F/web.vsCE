@@ -11,10 +11,12 @@ layout: default
     {{ content }}
   </article>
 
+{% comment %}
 {% assign contentSize = content | trim | size %}
 {% if contentSize < 1 %}
   {% include elem/fillme %}
 {% endif %}
+{% endcomment %}
 
 </div>
 
