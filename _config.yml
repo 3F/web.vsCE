@@ -61,7 +61,7 @@ lnkVSGallery: "http://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-
 # Dev
 
 lnkBackupLib: [ "/dev/lib/", "http://sourceforge.net/projects/vssbe/files/dev/lib/"]
-lnkBackupSrc: [ "/dev/sources/", "https://sourceforge.net/projects/vssbe/files/dev/sources/" ]
+lnkBackupSrc: [ "/vsCommandEvent/dev/src/", "https://sourceforge.net/projects/vssbe/files/vsCommandEvent/dev/src/" ]
 
 
 # other

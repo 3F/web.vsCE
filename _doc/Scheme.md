@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Scheme of vsCommandEvent projects and their work
+title: Scheme of vsCommandEvent
 permalink: /doc/Scheme/
 ---
 # Scheme of vsCommandEvent

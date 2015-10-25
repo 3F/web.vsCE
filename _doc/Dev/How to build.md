@@ -1,5 +1,5 @@
 ---
-layout: vssbedoc
+layout: doc
 title: How to build
 permalink: /doc/Dev/How to build/
 ---
@@ -8,7 +8,7 @@ permalink: /doc/Dev/How to build/
 
 Branches status:
 
-[![master branch](https://img.shields.io/badge/master_-%7E-555555.svg?style=flat)](https://ci.appveyor.com/project/3Fs/vssolutionbuildevent/branch/master)[![Build status](https://ci.appveyor.com/api/projects/status/l38xn0j2c5an28e1/branch/master?svg=true)](https://ci.appveyor.com/project/3Fs/vssolutionbuildevent/branch/master) [![develop branch](https://img.shields.io/badge/develop-%7E-555555.svg?style=flat)](https://ci.appveyor.com/project/3Fs/vssolutionbuildevent/branch/develop)[![Build status](https://ci.appveyor.com/api/projects/status/l38xn0j2c5an28e1/branch/develop?svg=true)](https://ci.appveyor.com/project/3Fs/vssolutionbuildevent/branch/develop)
+[![master branch](https://img.shields.io/badge/master_-%7E-555555.svg?style=flat)](https://ci.appveyor.com/project/3Fs/vscommandevent/branch/master)[![Build status](https://ci.appveyor.com/api/projects/status/yy8yu9wr4nuhaf7p/branch/master?svg=true)](https://ci.appveyor.com/project/3Fs/vscommandevent/branch/master) [![develop branch](https://img.shields.io/badge/develop-%7E-555555.svg?style=flat)](https://ci.appveyor.com/project/3Fs/vscommandevent/branch/develop)[![Build status](https://ci.appveyor.com/api/projects/status/yy8yu9wr4nuhaf7p/branch/develop?svg=true)](https://ci.appveyor.com/project/3Fs/vscommandevent/branch/develop)
 
 * [Source Code](/Downloads/#Code)
 * [Nightly builds](/Downloads/#NightlyBuilds)

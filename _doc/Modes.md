@@ -1,5 +1,5 @@
 ---
-layout: vssbedoc
+layout: doc
 title: Processing modes
 permalink: /doc/Modes/
 ---
@@ -8,7 +8,7 @@ permalink: /doc/Modes/
 * Files Mode
 * Operation Mode
 * Interpreter Mode
-* Script Mode
-* Targets Mode
+* [Script Mode](../Modes/Script/)
+* [Targets Mode](../Modes/Targets/)
 * [C# Mode](../Modes/CSharp/)
 * [EnvCommand Mode](../Modes/EnvCommand/)

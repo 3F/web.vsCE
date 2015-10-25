@@ -1,5 +1,5 @@
 ---
-layout: vssbedoc
+layout: doc
 title: Examples
 permalink: /doc/Examples/
 ---
