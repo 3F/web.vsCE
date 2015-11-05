@@ -5,10 +5,6 @@ permalink: /doc/Modes/
 ---
 # Processing modes
 
-* Files Mode
-* Operation Mode
-* Interpreter Mode
-* [Script Mode](../Modes/Script/)
-* [Targets Mode](../Modes/Targets/)
-* [C# Mode](../Modes/CSharp/)
-* [EnvCommand Mode](../Modes/EnvCommand/)
+{% assign cprefix = "/Modes/" %}
+{% assign urlPrefix = {{site.docp | append: "/Modes/"}} %}
+{% include doc/List.html %}

@@ -12,7 +12,7 @@ The vsCommandEvent contains same engine, however also have differences in a few 
 
 ## Object type
 
-The object type is new type for work with mixed data. It implemented special for vsCommandEvent.
+The object type is new type for work with complex mixed data. It implemented special for vsCommandEvent.
 
 Value can be from all available scalar types + complex, like this:
 

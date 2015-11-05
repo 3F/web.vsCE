@@ -8,7 +8,7 @@ title: Docmap
   <div class="list-group">
     {% for post in site.doc %}
       {% assign contentSize = post.content | trim | size %}
-      {% if post.hideDocmap or contentSize < 1 %}
+      {% if post.hideDocmap or post.layout == "redirect" or contentSize < 1 %}
         {% continue %}
       {% endif %}
       <a href="{{post.url}}" class="list-group-item">

@@ -13,7 +13,7 @@ This component has some differences from original [vsSolutionBuildEvent](http://
 
 ## Entry point for component
 
-The vsCommandEvent requires other name for all operations with InternalComponent:
+The vsCommandEvent requires the next name for all internal operations:
 
 * `vsCE` or alias `Core`
 
