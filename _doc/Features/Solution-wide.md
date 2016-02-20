@@ -26,4 +26,4 @@ You can **also suppress** all this operations, for example, allowing the Build o
 
 ## What's exists for work without plugins ?
 
-If you need a very simple variant without any additions, see [here](http://vssbe.r-eg.net/doc/Features/Solution-wide/#what-39-s-exists-for-work-without-plugins)
+If you need a very simple variant without any additions, see [here](http://vssbe.r-eg.net/doc/Features/Solution-wide/#whats-exists-for-work-without-plugins-)

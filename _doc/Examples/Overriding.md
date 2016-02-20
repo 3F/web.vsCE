@@ -11,7 +11,7 @@ permalink: /doc/Examples/Overriding/
 The all environment of any users may be flexibly changed as you want for different cases...
 
 This possible because the vsCommandEvent **may override a lot of commands** from Visual Studio, 
-and due to the fact that it is based on [vsSolutionBuildEvent](http://vssbe.r-eg.net) engine, it also provides a many [flexible actions](../../Examples/) as you need...
+and due to the fact that it is based on [vsSolutionBuildEvent](http://vssbe.r-eg.net) engine and also provides a lot of [flexible actions](../../Examples/) as you need...
 
 ## How to
 
@@ -52,7 +52,7 @@ Then select `EnvCommand Mode`[^1] and add next commands:
 ![](../../Resources/examples/cmds/live.gif)
 
 **Note:** the example above is used simple EnvDTE commands as action type.
-However, the vsCommandEvent **also** provides different engines for complex scripting if needed - [SBE-Scripts](../../Scripts/SBE-Scripts/), [MSBuild](../../Scripts/MSBuild/), [C#](../../Modes/CSharp/) and [others ...](../../Modes/)
+However, the vsCommandEvent is **also** provides different engines for complex scripting if needed - [SBE-Scripts](../../Scripts/SBE-Scripts/), [MSBuild](../../Scripts/MSBuild/), [C#](../../Modes/CSharp/) and [other ...](../../Modes/)
 
 # References
 

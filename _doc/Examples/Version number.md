@@ -1,10 +1,10 @@
 ---
 layout: vssbedoc
-title: Automatic Version Numbering
+title: Automatic Versioning
 permalink: /doc/Examples/Version number/
 ---
 
-# Automatic Version Numbering
+# Automatic Versioning
 
 ![Version class](../../Resources/examples/VersionClass.gif)
 
@@ -16,9 +16,9 @@ The vsCommandEvent may work with commands from VS, so you can catch command when
 
 **Moreover**, you can handle of versioning for most operations of Visual Studio. Simply try as you need.
 
-In general you should configure commands, and use this (for example) [documentation for Automatic Version Numbering](http://vssbe.r-eg.net/doc/Examples/Version%20number/)
+In general you should configure commands, and use this (for example) the documentation - [Automatic Version Numbering](http://vssbe.r-eg.net/doc/Examples/Version/Manually/#synopsis)
 
-**[here](../../Modes/EnvCommand/)**, you will see commands for Build, Rebuild, Clean operations for solution.
+And also **[here](../../Modes/EnvCommand/)** you will see commands for Build, Rebuild, Clean operations for solution.
 
 # References
 

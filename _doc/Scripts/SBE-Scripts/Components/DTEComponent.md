@@ -7,7 +7,7 @@ permalink: /doc/Scripts/SBE-Scripts/Components/DTEComponent/
 
 # DTEComponent
 
-For work with EnvDTE (is an assembly-wrapped COM library containing the objects and members for Visual Studio core automation http://msdn.microsoft.com/en-us/library/EnvDTE.aspx)
+For work with EnvDTE (Assembly-wrapped COM library containing the objects and members for Visual Studio core automation. http://msdn.microsoft.com/en-us/library/EnvDTE.aspx)
 
 This component has some differences from original [vsSolutionBuildEvent](http://vssbe.r-eg.net/doc/Scripts/SBE-Scripts/Components/DTEComponent/)
 

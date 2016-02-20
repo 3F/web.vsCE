@@ -24,8 +24,7 @@ For streaming of getting the mixed data from selected pane.
 
 Syntax:
 
-```java 
-
+```{{site.sbelang}}
 #[OWP out(string ident [, boolean isGuid])]
 ```
 
@@ -40,15 +39,13 @@ Arguments:
 
 Sample:
 
-```java 
-
+```{{site.sbelang}}
 #[OWP out("Build")]
 ```
 
 Note: The "Build" item is used by default with property `out` as alias:
 
-```java 
-
+```{{site.sbelang}}
 #[OWP out]
 ```
 

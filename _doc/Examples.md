@@ -4,43 +4,45 @@ title: Examples
 permalink: /doc/Examples/
 ---
 
-
-# Complete Solutions
+## Complete Solutions
 
 * [Overriding of commands](Overriding/)
-* [Automatic Version Numbering](Version number/)
+* [Automatic Versioning](Version number/)
 * [Stop build on first error](Errors.Stop build/)
 
-# Some features & others
+## MSBuild engine
 
-* [Date & Time](http://vssbe.r-eg.net/doc/Features/Date%20&%20Time/)
-* [Increment & Decrement Numbers [custom counters]](http://vssbe.r-eg.net/doc/Features/Custom%20counters/)
+The documentation [here](../Scripts/MSBuild/)
+
+## Some features
+
+* [Math operations](../Features/Math/)
+* [Date & Time](../Features/Date & Time/)
 * [.vsce File format](../Features/.vsce/)
-* [Actions for specific configuration](http://vssbe.r-eg.net/doc/Features/Actions%20for%20specific%20configuration/)
 * [Solution-wide Build Events](../Features/Solution-wide/)
-* [Confirmation dialog](http://vssbe.r-eg.net/doc/Features/Confirmation%20dialog/)
-* [Work with Unit-Tests & EnvDTE](http://vssbe.r-eg.net/doc/Features/EnvDTE%20&%20Tests/)
-* [Exclude projects from build on Pre-Build event](http://vssbe.r-eg.net/doc/Features/Exclude%20projects/)
-* [Work with external utilities](http://vssbe.r-eg.net/doc/Features/External%20utilities/)
-* [Operations with strings](http://vssbe.r-eg.net/doc/Features/Strings/)
-* [Remote servers](http://vssbe.r-eg.net/doc/Features/Remote/)
+* [Confirmation dialog](../Features/Confirmation dialog/)
+* [Exclude projects from build](../Features/Exclude projects/)
+* [Work with external utilities](../Features/External utilities/)
+* [Increment & Decrement Numbers [custom counters]](../Features/Custom counters/)
+* [Operations with strings](../Features/Strings/)
+* [Remote servers](../Features/Remote/)
 
-# Processing modes
+## Processing modes
 
 * [Processing modes](../Modes/)
 
-# Scheme of vsCommandEvent
+## Scheme of vsCommandEvent
 
-You should see [this page](../Scheme/)
+Read [here](../Scheme/)
 
 [![Scheme of vsCommandEvent projects](../Resources/events_model.png)](../Scheme/)
 
-# For developers
+## For developers
 
 See [Developer Zone](../Dev/) - *How to build plugin; How to create component for current platform; etc.*
 
-# Your experience
+## Your experience
 
-You can also improve all current pages or share some solutions/examples with community of your experiences. Click [Edit] button below or Start new [here](../New/)
+Feel free to improve any our pages. Click [Edit] button below or Start new page [here](../New/).
 
-*Take a few minutes of your time for helping for others our users. From short useful script/note or any complete solution. - this can be as part of [donation]({{site.baseurl}}/Donation/) or simple note for themselves or others...*
+*From the short useful script/note to the complete solution for other our users. It can be as part of [donation]({{site.baseurl}}/Donation/) or simple note to self etc.*

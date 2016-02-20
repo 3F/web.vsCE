@@ -15,7 +15,7 @@ Branches status:
 * [Snapshots](/Downloads/#Snapshots)
 
 
-Currently, it's similar for vsSolutionBuildEvent - see documentation **[here](http://vssbe.r-eg.net/doc/Dev/How%20to%20build/)**
+Currently it is similar for vsSolutionBuildEvent - see documentation **[here](http://vssbe.r-eg.net/doc/Dev/How%20to%20build/)**
 
 
 ## What's next ?
@@ -23,6 +23,6 @@ Currently, it's similar for vsSolutionBuildEvent - see documentation **[here](ht
 * Create [New component](../New%20Component/)
 * Improve all what you want...
 
-Is also ready for collaboration ? use pull request features *(on [Bitbucket](https://bitbucket.org/3F/vscommandevent/) or [GitHub](https://github.com/3F/vsCommandEvent/))*, or send this directly as **.patch** file with available contacts.
+Is also ready for collaboration ? use [pull request features](https://github.com/3F/vsCommandEvent) or send directly as **.patch** file.
 *For complex logic(as for our lexers, analyzers etc.) please also provide a correct new unit-tests.*
 

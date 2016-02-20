@@ -12,8 +12,7 @@ The vsCommandEvent has some differences from original [engine](http://vssbe.r-eg
 
 ## Default Entry point
 
-```csharp 
-
+```csharp
 using ICommand = net.r_eg.vsCE.Actions.ICommand;
 using ISolutionEvent = net.r_eg.vsCE.Events.ISolutionEvent;
 

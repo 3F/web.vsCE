@@ -7,15 +7,13 @@ permalink: /doc/New/
 <div style="text-align: left;">
 <a style="width: 150px;" href="https://github.com/3F/web.vsCE/new/gh-pages/_doc" class="btn btn-success" title="Create new wiki page">
 <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Create </a></div>
-<br />
 
-## How to
+The our Wiki based on GitHub services, so simply click **[here](https://github.com/3F/web.vsCE/new/gh-pages/_doc)**
 
-1. We use GitHub services, so simply click **[here](https://github.com/3F/web.vsCE/new/gh-pages/_doc)**
-1. Create or select any subpath from `_doc/` directory and name your file as you want with **.md** extension.
-1. Add next header:
+1. Then create or select any subpath from `_doc/` directory and name your file as you want with **.md** extension.
+1. Just add the following header:
 
-```text 
+```text
 ---
 layout: doc
 title: <Your title>
@@ -23,14 +21,13 @@ permalink: /doc/<path>/
 ---
 ```
 
-* `<path>` should be to **.md** file without extension, for example:
-    * Use `/doc/My Page/` if you will add the **My Page.md** in root [_doc directory](https://github.com/3F/web.vsCE/tree/gh-pages/_doc).
+* Where `<path>` should be to **.md** file without extension. For example, set `/doc/My Page/` if you will add the **My Page.md** in root [_doc directory](https://github.com/3F/web.vsCE/tree/gh-pages/_doc).
 
-That's all, use [markdown](https://help.github.com/articles/markdown-basics/) syntax, below from this header, for your awesome new page. Also see existing pages for helping with formatting.
+Now you're ready to create your awesome page below from this header. Use [markdown](https://help.github.com/articles/markdown-basics/) syntax or see existing pages.
 
 ## Markdown syntax
 
-* Test syntax on [this page](../Wiki test/)
+* Test on [this page](../Wiki test/)
     * [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
 
 ### Highlighting
@@ -39,17 +36,15 @@ Use this ([GitHub Flavored Markdown](https://help.github.com/articles/github-fla
 
 <pre>
 ```lang
-
   your data
 ```
 </pre>
 
-* Where `lang` any from available **[here](http://pygments.org/languages/)**
+* Where `lang` any from available **[here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers)** ([rouge](http://rouge.jneen.net/))
 
 ### List
 
 ```text
-
 * Item 1
     * Item 2
     * Item 3

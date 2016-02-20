@@ -11,10 +11,10 @@ The vsCommandEvent also contains this feature and you should use **[this documen
 Instead of "Errors-Build" event, you should configure the `Output window` tab:
 
 
-         | Guid | Item | Condition | Type
----------|------|------|-----------|------
-variant 1|`{1BD8A850-02D1-11d1-BEE7-00A0C913D1F8}` |  | <code>\s+error\s+([&#94;:]+):</code> | Regexp
-variant 2|                                         | `Build` | <code>\s+error\s+([&#94;:]+):</code> | Regexp
+variant  | Guid                                    | Item   | Condition                            | Type
+---------|-----------------------------------------|---------|-------------------------------------|------
+№ 1     |`{1BD8A850-02D1-11d1-BEE7-00A0C913D1F8}` |         | <code>\s+error\s+([&#94;:]+):</code> | Regexp
+№ 2     |                                         | `Build` | <code>\s+error\s+([&#94;:]+):</code> | Regexp
 
 
 if you need control of errors and warnings, use for example:
@@ -27,7 +27,7 @@ Condition | Type
 
 If also need getting of this data, you should use [SBE-Scripts](../../Scripts/SBE-Scripts/) engine, for example:
 
-```java
+```{{site.sbelang1}}
 #[( #[OWP out.Warnings.Count] > 0 ){
     ... #[OWP out.Warnings.Codes]
 }]

@@ -6,25 +6,25 @@ permalink: /doc/Modes/EnvCommand/
 
 # EnvCommand Mode
 
-This action type for raising of different commands for EnvDTE *(is an assembly-wrapped COM library containing the objects and members for Visual Studio core automation http://msdn.microsoft.com/en-us/library/EnvDTE.aspx)*
+This action type for raising of different commands for EnvDTE (Assembly-wrapped COM library containing the objects and members for Visual Studio core automation. http://msdn.microsoft.com/en-us/library/EnvDTE.aspx)
 
 ![sample](../../Resources/examples/EnvCommand.png)
 
 ## How to use
 
-In general, for work with EnvDTE commands, you can use our sniffer tool: `Settings` - `Tools` - `EnvDTE Sniffer`
+In general, for work with EnvDTE commands you can use our sniffer tool: `Settings` - `Tools` - `EnvDTE Sniffer`
 
 ![sniffer](../../Resources/examples/CommandEvent.gif)
 
 The `Enum` column should describe about place for this command, for example:
 
-```
+```text
 {1496A755-94DE-11D0-8C3F-00C04FC2AAE2} 1628 Microsoft.VisualStudio.VSConstants+VSStd2KCmdID.OutputPaneComboList
 ```
 
 Where:
 
-* Microsoft.VisualStudio.VSConstants+VSStd2KCmdID.OutputPaneComboList tells us about operation - [OutputPaneComboList](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.vsconstants.vsstd2kcmdid.aspx?f=255&MSPPError=-2147217396)
+* `Microsoft.VisualStudio.VSConstants+VSStd2KCmdID.OutputPaneComboList` tells us about operation - [OutputPaneComboList](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.vsconstants.vsstd2kcmdid.aspx?f=255&MSPPError=-2147217396)
 
 For all this, firstly, you should use [MSDN](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.aspx) and/or listen in details our sniffer tool.
 
@@ -37,7 +37,7 @@ All raised commands will be handled in your scripts - **before** (`Pre` flag) ex
 You can work with both variants as you want.
 
 If you work before executing (by Visual Studio) of catched command, you can also try to **cancel** this command if needed.
-For this case, you may catch and suppress any commands from Visual studio for handle **only** with your scripts *(try with About dlg of VS IDE, [see below](#samples))*.
+For this case, you may catch and suppress any commands from Visual studio for handle **only** with your scripts *(try with `About` dlg of VS IDE, [see below](#samples))*.
 
 ## Samples
 
@@ -56,7 +56,7 @@ Paste data from buffer | {5EFC7975-14BC-11CF-9B2B-00AA00573819} | 26 | |
 Exit | {5EFC7975-14BC-11CF-9B2B-00AA00573819} | 229 | | 
 Create new file `OutputLog.txt` & Open & activate in editor | {5EFC7975-14BC-11CF-9B2B-00AA00573819} | 221 | `OutputLog.txt` | 
 
-and others...
+and other...
 
 
 # References

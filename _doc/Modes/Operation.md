@@ -6,9 +6,9 @@ permalink: /doc/Modes/Operation/
 
 # Operation Mode
 
-The vsCommandEvent contains same mode, however also have next differences.
+The vsCommandEvent contains same mode with differences below.
 
-After selecting of this mode, you should use a list of commands in the corresponding columns:
+After selecting of this mode, you should use list of commands in the corresponding columns:
 
 ![List](../../Resources/app/mode_operation_list.png)
 
