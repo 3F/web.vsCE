@@ -52,8 +52,9 @@ msblang: bash
 
 ## VSPackage
 
-lnkCur_VSPackage:   [ "v1.0.0", "vsCommandEvent_v1.0.0.3751_[7a415e0][net45].vsix", "https://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/file/184640/" ]
+lnkCur_VSPackage:   [ "v1.1.0", "vsCommandEvent_v1.1.0.672_[9c1a9f7][net45].vsix", "https://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/file/184640/" ]
 lnkList_VSPackage:  [
+                        [ "v1.1.0", "vsCommandEvent_v1.1.0.672_[9c1a9f7][net45].vsix", "https://sourceforge.net/projects/vssbe/files/vsCommandEvent/v1.x/vsCommandEvent_v1.1.0.672_%5B9c1a9f7%5D%5Bnet45%5D.vsix/download" ],
                         [ "v1.0.0", "vsCommandEvent_v1.0.0.3751_[7a415e0][net45].vsix", "http://sourceforge.net/projects/vssbe/files/vsCommandEvent/v1.x/vsCommandEvent_v1.0.0.3751_%5B7a415e0%5D%5Bnet45%5D.vsix/download" ]
                     ]
 lnkOld_VSPackage:   []
@@ -61,7 +62,7 @@ lnkAll_VSPackage:   [ "/v1.x/", "https://sourceforge.net/projects/vssbe/files/vs
 
 ## used vsSBE
 
-verUsedVSSBE: "v0.12.4"
+verUsedVSSBE: "v0.12.7"
 
 #######################################
 # Sources

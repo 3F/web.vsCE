@@ -30,6 +30,14 @@ For all this, firstly, you should use [MSDN](https://msdn.microsoft.com/en-us/li
 
 In most cases you should look first the VSStd2KCmdID & VSStd97CmdID enumerations.
 
+### Test commands
+
+v1.1+ is already contains the `Raise` item to check the all incoming commands inside sniffer.
+
+![](../../Resources/examples/sniffer_raise.png)
+
+For older versions you can use the `raise(guid, id, customIn, customOut)` method from [DTEComponent]({{site.docp}}/Scripts/SBE-Scripts/Components/DTEComponent/#method-raise) and testing tool from `Tools` - `SBE-Scripts ...`
+
 ## Pre / Post / Cancel
 
 All raised commands will be handled in your scripts - **before** (`Pre` flag) executing by VS IDE and **after** (`Post` flag).
