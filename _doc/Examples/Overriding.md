@@ -11,7 +11,7 @@ permalink: /doc/Examples/Overriding/
 The all environment of any users may be flexibly changed as you want for different cases...
 
 This possible because the vsCommandEvent **may override a lot of commands** from Visual Studio, 
-and due to the fact that it is based on [vsSolutionBuildEvent](http://vssbe.r-eg.net) engine and also provides a lot of [flexible actions](../../Examples/) as you need...
+and due to the fact that it is based on [vsSolutionBuildEvent](http://vssbe.r-eg.net) engine it also provides a lot of [flexible actions](../../Examples/) as you need...
 
 ## How to
 
@@ -21,7 +21,7 @@ How about to override the 'Exit' (including `Alt + F4` hotkey) form Visual Studi
 
 ![Exit command](../../Resources/examples/cmds/menu.png)
 
-And how about of next actions below instead of original exit:
+And how about to set actions below instead of original:
 
 * Copy all data from VS Output Window.
 * Then create new text file, open and activate it.
