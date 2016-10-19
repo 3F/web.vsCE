@@ -53,17 +53,20 @@ msblang: bash
 
 ## VSPackage
 
-lnkCur_VSPackage:   [ "v1.1.0", "vsCommandEvent&#95;v1.1.0.672&#95;[9c1a9f7][net45].vsix", "https://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/file/184640/5/" ]
+lnkCur_VSPackage:   [ "v1.2.0", "vsCommandEvent&#95;v1.2.0.11076&#95;a7bae2f&#95;net40.vsix", "https://sourceforge.net/projects/vssbe/files/vsCommandEvent/v1.x/net40/vsCommandEvent_v1.2.0.11076_a7bae2f_net40.vsix/download" ]
 lnkList_VSPackage:  [
-                        [ "v1.1.0", "vsCommandEvent&#95;v1.1.0.672&#95;[9c1a9f7][net45].vsix", "https://sourceforge.net/projects/vssbe/files/vsCommandEvent/v1.x/vsCommandEvent_v1.1.0.672_%5B9c1a9f7%5D%5Bnet45%5D.vsix/download" ],
+                        [ "v1.2.0_net40", "vsCommandEvent&#95;v1.2.0.11076&#95;a7bae2f&#95;net40.vsix", "https://sourceforge.net/projects/vssbe/files/vsCommandEvent/v1.x/net40/vsCommandEvent_v1.2.0.11076_a7bae2f_net40.vsix/download" ],
+                        [ "v1.2.0_net45", "vsCommandEvent&#95;v1.2.0.11077&#95;a7bae2f&#95;net45.vsix", "https://sourceforge.net/projects/vssbe/files/vsCommandEvent/v1.x/net45/vsCommandEvent_v1.2.0.11077_a7bae2f_net45.vsix/download" ],
+                        [ "v1.1.0", "vsCommandEvent&#95;v1.1.0.672&#95;[9c1a9f7][net45].vsix", "https://sourceforge.net/projects/vssbe/files/vsCommandEvent/v1.x/vsCommandEvent_v1.1.0.672_%5B9c1a9f7%5D%5Bnet45%5D.vsix/download" ]
+                    ]
+lnkOld_VSPackage:   [
                         [ "v1.0.0", "vsCommandEvent&#95;v1.0.0.3751&#95;[7a415e0][net45].vsix", "http://sourceforge.net/projects/vssbe/files/vsCommandEvent/v1.x/vsCommandEvent_v1.0.0.3751_%5B7a415e0%5D%5Bnet45%5D.vsix/download" ]
                     ]
-lnkOld_VSPackage:   []
 lnkAll_VSPackage:   [ "/v1.x/", "https://sourceforge.net/projects/vssbe/files/vsCommandEvent/v1.x/" ]
 
 ## used vsSBE
 
-verUsedVSSBE: "v0.12.7"
+verUsedVSSBE: "v0.12.9"
 
 #######################################
 # Sources
