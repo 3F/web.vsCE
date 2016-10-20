@@ -53,7 +53,7 @@ msblang: bash
 
 ## VSPackage
 
-lnkCur_VSPackage:   [ "v1.2.0", "vsCommandEvent&#95;v1.2.0.11076&#95;a7bae2f&#95;net40.vsix", "https://sourceforge.net/projects/vssbe/files/vsCommandEvent/v1.x/net40/vsCommandEvent_v1.2.0.11076_a7bae2f_net40.vsix/download" ]
+lnkCur_VSPackage:   [ "v1.2.0", "vsCommandEvent&#95;v1.2.0.11076&#95;a7bae2f&#95;net40.vsix", "https://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/file/184640/6/" ]
 lnkList_VSPackage:  [
                         [ "v1.2.0_net40", "vsCommandEvent&#95;v1.2.0.11076&#95;a7bae2f&#95;net40.vsix", "https://sourceforge.net/projects/vssbe/files/vsCommandEvent/v1.x/net40/vsCommandEvent_v1.2.0.11076_a7bae2f_net40.vsix/download" ],
                         [ "v1.2.0_net45", "vsCommandEvent&#95;v1.2.0.11077&#95;a7bae2f&#95;net45.vsix", "https://sourceforge.net/projects/vssbe/files/vsCommandEvent/v1.x/net45/vsCommandEvent_v1.2.0.11077_a7bae2f_net45.vsix/download" ],
