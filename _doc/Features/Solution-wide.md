@@ -24,6 +24,6 @@ Started - Clean Solution |{5EFC7975-14BC-11CF-9B2B-00AA00573819} | 885 | |
 
 You can **also suppress** all this operations, for example, allowing the Build operation only for some cases (with [SBE-Scripts](../../Scripts/SBE-Scripts/), [C# Mode](../../Modes/CSharp/)) etc.
 
-## What's exists for work without plugins ?
+## No plugins
 
-If you need a very simple variant without any additions, see [here](http://vssbe.r-eg.net/doc/Features/Solution-wide/#whats-exists-for-work-without-plugins-)
+If you really don't need any additions, see [here](http://vssbe.r-eg.net/doc/Features/Solution-wide/#whats-exists-for-work-without-plugins-)

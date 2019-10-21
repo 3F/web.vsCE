@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: vsCommandEvent/vsCE (.vsce) File
+title: .vsce File
 permalink: /doc/Features/.vsce/
 ---
 

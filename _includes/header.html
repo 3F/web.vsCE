@@ -1,123 +1,114 @@
 <header>
 
-{% include components/ghRibbon.html %}
-
-<!--include components/cse -->
-
-<div style="width:0; height:0; overflow: hidden;">
-  <gcse:search linktarget="_self"></gcse:search>
-</div>
-    
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="wrapper container-fluid">
-        <div class="navbar-header">
-          <button aria-expanded="true" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-top">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="{{ site.baseurl }}/">
-            <img style="float: left;" src="{{ site.baseurl }}/img/logo.png" width="64" height="64" border="0" />
-          </a>
-          <span class="navbar-brand" style="font-size: 18px; margin-left: 1px;" title="{{ site.subtitle }}">{{ site.title }}</span>
+  {% include components/ghRibbon.html %}
+  
+  <div style="width:0; height:0; overflow: hidden;">
+  
+  </div>
+      
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="wrapper container-fluid">
+          <div class="navbar-header">
+            <button aria-expanded="true" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-top">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="{{ site.baseurl }}/">
+              <img style="float: left;" src="{{ site.baseurl }}/img/logo.png" width="64" height="64" border="0" />
+            </a>
+            <span class="navbar-brand" style="font-size: 18px; margin-left: 1px;" title="{{ site.subtitle }}"><a href="https://github.com/3F/vsCommandEvent">{{ site.title }}</a></span>
+          </div>
+  
+          <div aria-expanded="true" class="navbar-collapse collapse" id="navbar-collapse-top">
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  <span class="glyphicon glyphicon-list" aria-hidden="true"></span>  
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <!-- https://duckduckgo.com/search_box -->
+                    <iframe src="https://duckduckgo.com/search.html?width=180&site=vssbe.r-eg.net,vsce.r-eg.net&prefill=Search DuckDuckGo" style="overflow:hidden;margin:0;padding:0;width:238px;height:40px;" frameborder="0"></iframe>
+                  </li>
+                  <li>
+                    <a href="{{site.issueNew}}" target="_blank" title="bug ? question ?">
+                      <span class="glyphicon glyphicon-bullhorn nav-gicon" aria-hidden="true"></span> Create Issue
+                    </a>
+                  </li>
+                  <li>
+                    <a href="{{ site.docp }}/New/" title="Create new wiki page">
+                      <span class="glyphicon glyphicon-pencil nav-gicon" aria-hidden="true"></span> Create new page
+                    </a>
+                  </li>
+                  <li class="divider"></li>
+                  <!-- <li>
+                    <a href="{{site.issueListAll}}" target="_blank">
+                      <span class="glyphicon glyphicon-tasks nav-gicon" aria-hidden="true"></span> Issue list
+                    </a>
+                  </li> -->
+                  <li>
+                    <a href="{{ site.baseurl }}/Changelist/">
+                      <span class="glyphicon glyphicon-list-alt nav-gicon" aria-hidden="true"></span> Changelog
+                    </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a href="https://vssbe.r-eg.net/">
+                      <span class="glyphicon glyphicon-object-align-right nav-gicon" aria-hidden="true"></span> vsSolutionBuildEvent
+                    </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a href="{{site.lnkVSGallery}}" target="_blank">
+                      <span class="glyphicon glyphicon-blackboard nav-gicon" aria-hidden="true"></span> VS Marketplace
+                    </a>
+                  </li>
+                  <li>
+                    <a href="{{ site.baseurl }}/doc/Examples/">
+                      <span class="glyphicon glyphicon-equalizer nav-gicon" aria-hidden="true"></span> Examples
+                    </a>
+                  </li>
+                  <li>
+                    <a href="{{ site.baseurl }}/Screenshots/">
+                      <span class="glyphicon glyphicon-picture nav-gicon" aria-hidden="true"></span> Screenshots
+                    </a>
+                  </li>
+                  <li>
+                    <a href="{{ site.baseurl }}/Docmap/">
+                      <span class="glyphicon glyphicon-th-list nav-gicon" aria-hidden="true"></span> Docmap
+                    </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a href="https://github.com/3F/vsCommandEvent/blob/master/LICENSE">
+                      <span class="glyphicon glyphicon-ok nav-gicon" aria-hidden="true"></span> License
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="page-link" href="/Downloads/">
+                  <span class="glyphicon glyphicon-globe" aria-hidden="true"></span> <strong>Downloads</strong>
+                </a>
+              </li>
+              <li>
+                <a class="page-link" target="_blank" href="https://3F.github.com/Donation/">
+                  <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Donate
+                </a>
+              </li>
+              <li>
+                <a class="page-link" href="/About/">
+                  About
+                </a>
+              </li>
+            </ul>
+            
+          </div>
         </div>
-
-        <div aria-expanded="true" class="navbar-collapse collapse" id="navbar-collapse-top">
-          
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                <span class="glyphicon glyphicon-list" aria-hidden="true"></span>  
-                <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
-                <li>
-                  <form action="https://www.google.com/search" class="navbar-form navbar-left" role="search" target="_blank">
-                  <!--<form id="searchbox_015940813846195949799:g4jcvddxv9y" action="" class="navbar-form navbar-left" role="search">-->
-                    <!--<input value="015940813846195949799:g4jcvddxv9y" name="cx" type="hidden"/>-->
-                    <input name="sitesearch" value="{{site.domain}}" type="hidden" />
-                    <span class="form-group">
-                      <input id="q" name="q" class="form-control" placeholder="Search" type="text" title="put the words and press enter" />
-                    </span>
-                    <!--<button type="submit" name="sa" class="btn btn-default">~</button>-->
-                  </form>
-                </li>
-                <li>
-                  <a href="https://github.com/3F/vsCommandEvent/issues/new" target="_blank" title="bug ? question ?">
-                    <span class="glyphicon glyphicon-bullhorn nav-gicon" aria-hidden="true"></span> Create Issue
-                  </a>
-                </li>
-                <li>
-                  <a href="{{ site.docp }}/New/" title="Create new wiki page">
-                    <span class="glyphicon glyphicon-pencil nav-gicon" aria-hidden="true"></span> Create new page
-                  </a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                  <a href="https://github.com/3F/vsCommandEvent/issues" target="_blank">
-                    <span class="glyphicon glyphicon-tasks nav-gicon" aria-hidden="true"></span> Issue list
-                  </a>
-                </li>
-                <li>
-                  <a href="{{ site.baseurl }}/Changelist/">
-                    <span class="glyphicon glyphicon-list-alt nav-gicon" aria-hidden="true"></span> Changelog
-                  </a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                  <a href="http://vssbe.r-eg.net/">
-                    <span class="glyphicon glyphicon-object-align-right nav-gicon" aria-hidden="true"></span> vsSolutionBuildEvent
-                  </a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                  <a href="http://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/" target="_blank">
-                    <span class="glyphicon glyphicon-blackboard nav-gicon" aria-hidden="true"></span> VS Gallery Page
-                  </a>
-                </li>
-                <li>
-                  <a href="{{ site.baseurl }}/doc/Examples/">
-                    <span class="glyphicon glyphicon-equalizer nav-gicon" aria-hidden="true"></span> Examples
-                  </a>
-                </li>
-                <li>
-                  <a href="{{ site.baseurl }}/Screenshots/">
-                    <span class="glyphicon glyphicon-picture nav-gicon" aria-hidden="true"></span> Screenshots
-                  </a>
-                </li>
-                <li>
-                  <a href="{{ site.baseurl }}/Docmap/">
-                    <span class="glyphicon glyphicon-th-list nav-gicon" aria-hidden="true"></span> Docmap
-                  </a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                  <a href="{{ site.baseurl }}/License/">
-                    <span class="glyphicon glyphicon-ok nav-gicon" aria-hidden="true"></span> License
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a class="page-link" href="{{ site.baseurl }}/Downloads/">
-                <span class="glyphicon glyphicon-globe" aria-hidden="true"></span> <strong>Downloads</strong>
-              </a>
-            </li>
-            <li>
-              <a class="page-link" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=entry%2ereg%40gmail%2ecom&lc=US&item_name=3F%2dOpenSource%20%5b%20github%2ecom%2f3F&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted">
-                <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Donate
-              </a>
-            </li>
-            <li>
-              <a class="page-link" href="{{ site.baseurl }}/About/">
-                About
-              </a>
-            </li>
-          </ul>
-          
-        </div>
-      </div>
-    </nav>
-
-</header>
+      </nav>
+  
+  </header>

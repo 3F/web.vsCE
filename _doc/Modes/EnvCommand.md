@@ -6,7 +6,7 @@ permalink: /doc/Modes/EnvCommand/
 
 # EnvCommand Mode
 
-This action type for raising of different commands for EnvDTE (Assembly-wrapped COM library containing the objects and members for Visual Studio core automation. http://msdn.microsoft.com/en-us/library/EnvDTE.aspx)
+This action type for raising of different commands for EnvDTE: [https://msdn.microsoft.com/en-us/library/EnvDTE.aspx](http://msdn.microsoft.com/en-us/library/EnvDTE.aspx)
 
 ![sample](../../Resources/examples/EnvCommand.png)
 

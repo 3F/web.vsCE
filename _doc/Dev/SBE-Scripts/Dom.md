@@ -1,7 +1,7 @@
 ---
 layout: redirect
-title: Dom & Code Completion
+title: Dom and Code Completion
 permalink: /doc/Dev/SBE-Scripts/Dom/
-newlink: http://vssbe.r-eg.net/doc/Dev/SBE-Scripts/Dom/
+newlink: https://vssbe.r-eg.net/doc/Dev/SBE-Scripts/Dom/
 ---
 

@@ -3,23 +3,24 @@ layout: default
 title: vsCommandEvent
 ---
 
+Extending Visual Studio **on the fly** via [E-MSBuild]((https://github.com/3F/E-MSBuild)), [SobaScript]((https://github.com/3F/SobaScript)), C#, ... An powerful manager of the commands and data.
+
+*Feel like a master.*
+
+[![Build status](https://ci.appveyor.com/api/projects/status/gwmda50hdcu9esws/branch/master?svg=true)](https://ci.appveyor.com/project/3Fs/vscommandevent-2jxea/branch/master)
+[![VSIX](https://vsce.r-eg.net/etc/badges/VSPackage.svg)](https://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/)
+[![LGPLv3](https://vsce.r-eg.net/etc/badges/License.svg)](https://github.com/3F/vsCommandEvent/blob/master/LICENSE) 
+[![GetNuTool](https://img.shields.io/badge/🧩-GetNuTool-93C10B.svg)](https://github.com/3F/GetNuTool)
+[![SobaScript](https://img.shields.io/badge/🧩-SobaScript-8E5733.svg)](https://github.com/3F/SobaScript)
+[![E-MSBuild](https://img.shields.io/badge/🧩-E--MSBuild-C8597A.svg)](https://github.com/3F/E-MSBuild)
+
+[![Build history](https://buildstats.info/appveyor/chart/3Fs/vscommandevent-2jxea?buildCount=20&showStats=true)](https://ci.appveyor.com/project/3Fs/vscommandevent-2jxea/history)
+
+**[Download](https://vsce.r-eg.net/Downloads/)**  (Binaries, Snapshots, Nightly builds, Libraries, ...)
+
+* [VisualStudio Marketplace](https://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/)
+
 <div class="home">
-  
-  <p>
-    <a href="{{site.lnkCur_VSPackage[2]}}" rel="noreferrer" class="btn btn-primary btn-sm">Download .vsix</a>
-    :: <a href="/Downloads/">Downloads page</a> (Binaries, Snapshots, Nightly builds, Libraries, ...)
-  </p>
-
-  <p><em>MS Visual Studio Gallery</em>:</p>
-
-  <ul>
-    <li><a href="https://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/" target="_blank">ad9f19b2-04c0-46fe-9637-9a52ce4ca661</a></li>
-  </ul>
-  
-  <div style="padding-bottom: 7px;">
-    <img src="/etc/badges/vsSolutionBuildEvent.svg" title="It includes engine of this version" />
-    <a href="/About/" class="text small">Flexible actions for all ...</a>
-  </div>
   
   <table class="table">
     <tbody>
@@ -32,22 +33,22 @@ title: vsCommandEvent
                 <td width="3%">
                   <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
                 </td>
-                <td><a href="Changelist/">Changelist</a></td>
+                <td><a href="Changelist/">Changelog</a></td>
               </tr>
               <tr>
                 <td width="3%">
                   <span class="glyphicon glyphicon-object-align-right" aria-hidden="true"></span>
                 </td>
-                <td><a href="http://vssbe.r-eg.net"><b>vsSolutionBuildEvent</b> engine</a></td>
+                <td><a href="https://vssbe.r-eg.net"><b>vsSolutionBuildEvent</b></a></td>
               </tr>
-              <tr>
+              <!-- <tr>
                 <td>
                   <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
                 </td>
                 <td>
                   <a href="{{site.docp}}/Dev/How to build/">How to build</a>
                 </td>
-              </tr>
+              </tr> -->
               <tr>
                 <td>
                   <!--<span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span>-->

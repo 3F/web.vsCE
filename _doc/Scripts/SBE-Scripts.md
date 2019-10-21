@@ -4,7 +4,14 @@ title: SBE-Scripts
 permalink: /doc/Scripts/SBE-Scripts/
 ---
 
-The vsCommandEvent contains same engine, however also have differences in a few components.
+{% assign infoData = "Uses [SobaScript](https://github.com/3F/SobaScript) Starting from **1.3.** Part of the documentation may be irrelevant. Please update me." %}
+{% include elem/info %}
+
+Togehter with [MSBuild](../MSBuild/) provides and powerful conditions, subcommands, file operations, and lot of other.
+
+---- 
+
+The vsCommandEvent contains the same engine, but also has differences in several components.
 
 ## Arguments
 

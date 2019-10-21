@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
+
+  {% assign pTitleUrlEsc =  page.title | url_encode %}
+  {% assign sTitleUrlEsc =  site.title | url_encode %}
+  {% assign pageUrlFull = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+
+  {% assign pTitleShareUrlEsc = pTitleUrlEsc | append: ' - ' | append: sTitleUrlEsc | url_encode %}
+
+  {% assign pTitleXmlEsc = page.title | xml_escape %}
+
+  {% assign metaDescr = page.content | markdownify | replace:'</p>','. ' | replace:'</h1>','.' | replace:'</h2>','.' | replace:'</h3>','.' | replace:'</h4>','.' | strip_html | strip_newlines | slice: 0, 420 | append: '…' %}
+
   {% include head.html %}
 
   <body>
     {% include header.html %}
     
     <!-- nav line -->
-    {% assign _page = {{page.url | remove: "index.html"}} | split: "/" %}
+    {% assign _page = page.url | remove: "index.html" | split: "/" %}
     {% if _page.size > 2 %}
     
       <div class="wrapper small">
@@ -16,14 +27,13 @@
             <a href="/">Home</a>
           </li>
           
-          {% assign url = {{site.docp}} %}
-          {% for p in _page | offset: 2 %}
-            {% assign url = {{url}} | append: "/" | append: {{p}} %}
+          {% assign url = site.docp %}
+          {% for p in _page offset: 2 %}
             {% if forloop.last %}
               <li class="active">{{p}}</li>
               {% break %}
             {% endif %}
-            <li><a href="{{url}}/">{{p}}</a></li>
+            <li><a href="{{url}}/{{p}}/">{{p}}</a></li>
           {% endfor %}
         </ul>
       </div>

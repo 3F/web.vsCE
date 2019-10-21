@@ -4,6 +4,9 @@ title: MSBuild
 permalink: /doc/Scripts/MSBuild/
 ---
 
+{% assign infoData = "Uses [E-MSBuild](https://github.com/3F/E-MSBuild) Starting from **1.3** Part of the documentation may be irrelevant. Please update me." %}
+{% include elem/info %}
+
 ## Special MSBuild Properties
 
 List of special properties that available as MSBuild Properties.

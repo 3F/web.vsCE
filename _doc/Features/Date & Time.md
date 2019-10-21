@@ -1,7 +1,7 @@
 ---
 layout: redirect
-title: Date & Time
+title: Date and Time
 permalink: /doc/Features/Date & Time/
-newlink: http://vssbe.r-eg.net/doc/Features/Date%20&%20Time/
+newlink: https://vssbe.r-eg.net/doc/Features/Date%20&%20Time/
 ---
 
