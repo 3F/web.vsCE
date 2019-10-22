@@ -1,6 +1,7 @@
 ---
 layout: default
-title: About
+title: About vsCommandEvent
+permalink: /About/
 ---
 
 [https://github.com/3F/vsCommandEvent](https://github.com/3F/vsCommandEvent)
@@ -33,9 +34,9 @@ Means advanced handler of the most events but unlike the first it specialized fo
 
 ### Overriding commands
 
-The entire environment of any users may be flexibly changed as you want for different cases...
+The dev environment of any users may be flexibly changed as you need in a few steps.
 
-This is possible because the vsCommandEvent may override a lot of commands from Visual Studio and due to the fact that it is based on [vsSolutionBuildEvent](https://github.com/3F/vsSolutionBuildEvent) engine it also provides a lot of flexible actions as you need.
+This is possible because vsCommandEvent **may override a lot of things** from Visual Studio, and it also provides [flexible actions](https://vsce.r-eg.net/doc/Examples/) due to the fact that it was based on [vsSolutionBuildEvent](https://github.com/3F/vsSolutionBuildEvent). 
 
 ![](https://3F.github.io/web.vsCE/doc/Resources/examples/EnvCommand.png)
 
