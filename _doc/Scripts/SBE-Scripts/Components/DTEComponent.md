@@ -1,13 +1,15 @@
 ---
 layout: vssbedoc
-title: DTEComponent
-description: For work with EnvDTE.
+title: DteComponent
+description: DTE commands and events.
 permalink: /doc/Scripts/SBE-Scripts/Components/DTEComponent/
 ---
 
-# DTEComponent
+# DteComponent
 
-For work with EnvDTE (Assembly-wrapped COM library containing the objects and members for Visual Studio core automation. http://msdn.microsoft.com/en-us/library/EnvDTE.aspx)
+DTE commands and events.
+
+Related to assembly-wrapped COM library containing the objects and members for Visual Studio core automation.
 
 This component has some differences from original [vsSolutionBuildEvent](http://vssbe.r-eg.net/doc/Scripts/SBE-Scripts/Components/DTEComponent/)
 

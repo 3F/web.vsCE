@@ -1,24 +1,16 @@
 ---
-layout: default
+layout: doc
 title: vsCommandEvent
 ---
 
-Extending Visual Studio **on the fly** via [E-MSBuild]((https://github.com/3F/E-MSBuild)), [SobaScript]((https://github.com/3F/SobaScript)), C#, ... An powerful manager of the commands and data.
+Extending Visual Studio **on the fly** via [E-MSBuild]((https://github.com/3F/E-MSBuild)), [SobaScript]((https://github.com/3F/SobaScript)), C#, ...
 
-*Feel like a master.*
+[ 「 <sub>@</sub> ☕ 」 ](https://3F.github.io/Donation/) [![LGPLv3](https://img.shields.io/badge/license-LGPLv3-008033.svg)](https://github.com/3F/vsCommandEvent/blob/master/LICENSE)
+[![VSIX](https://img.shields.io/badge/dynamic/xml?color=6C2C7C&label=VSIX&query=//text()&url=https://raw.githubusercontent.com/3F/vsCommandEvent/master/.version)](https://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/gwmda50hdcu9esws/branch/master?svg=true)](https://ci.appveyor.com/project/3Fs/vscommandevent-2jxea/branch/master)
-[![VSIX](https://vsce.r-eg.net/etc/badges/VSPackage.svg)](https://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/)
-[![LGPLv3](https://vsce.r-eg.net/etc/badges/License.svg)](https://github.com/3F/vsCommandEvent/blob/master/LICENSE) 
-[![GetNuTool](https://img.shields.io/badge/🧩-GetNuTool-93C10B.svg)](https://github.com/3F/GetNuTool)
-[![SobaScript](https://img.shields.io/badge/🧩-SobaScript-8E5733.svg)](https://github.com/3F/SobaScript)
-[![E-MSBuild](https://img.shields.io/badge/🧩-E--MSBuild-C8597A.svg)](https://github.com/3F/E-MSBuild)
+**[Download](https://github.com/3F/vsCommandEvent/releases/latest)**
 
-[![Build history](https://buildstats.info/appveyor/chart/3Fs/vscommandevent-2jxea?buildCount=20&showStats=true)](https://ci.appveyor.com/project/3Fs/vscommandevent-2jxea/history)
-
-**[Download](https://vsce.r-eg.net/Downloads/)**  (Binaries, Snapshots, Nightly builds, Libraries, ...)
-
-* [VisualStudio Marketplace](https://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/)
+* Page on [VisualStudio Marketplace](https://visualstudiogallery.msdn.microsoft.com/ad9f19b2-04c0-46fe-9637-9a52ce4ca661/) <span class="glyphicon glyphicon-gift" aria-hidden="true"></span> 
 
 <div class="home">
   
@@ -51,15 +43,15 @@ Extending Visual Studio **on the fly** via [E-MSBuild]((https://github.com/3F/E-
               </tr> -->
               <tr>
                 <td>
-                  <!--<span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span>-->
+                  <span class="glyphicon" aria-hidden="true">\\\</span>
                 </td>
-                <td><a href="{{site.docp}}/Scripts/SBE-Scripts/">SBE-Scripts</a></td>
+                <td><a href="{{site.docp}}/Scripts/SBE-Scripts/">SobaScript</a></td>
               </tr>
               <tr>
                 <td>
-                  <!--<span class="glyphicon glyphicon-tree-conifer" aria-hidden="true"></span>-->
+                  <span class="glyphicon glyphicon-object-align-horizontal" aria-hidden="true"></span>
                 </td>
-                <td><a href="{{site.docp}}/Scripts/MSBuild/">MSBuild</a></td>
+                <td><a href="{{site.docp}}/Scripts/MSBuild/">E-MSBuild</a></td>
               </tr>
               <tr>
                 <td>
@@ -75,16 +67,16 @@ Extending Visual Studio **on the fly** via [E-MSBuild]((https://github.com/3F/E-
               </tr>
               <tr class="success">
                 <td>
-                  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                  <span class="glyphicon" aria-hidden="true">🍰</span>
                 </td>
-                <td><b><a href="Donation/">Support us</a></b></td>
+                <td><a href="Donation/"><b>Open</b> and <b>Free</b></a></td>
               </tr>
             </tbody>
           </table>          
           
         </td>
         <td width="25%">
-          <a href="/Screenshots/">
+          <a href="{{site.docp}}/Examples/TODOword/">
             <img src="{{site.docp}}/Resources/Screenshots/vsCommandEvent_menu.png" width="352" height="53" />
             <br /><br />
             <img src="{{site.docp}}/Resources/Screenshots/menu.png" width="298" height="275" />

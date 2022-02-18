@@ -6,6 +6,7 @@ permalink: /doc/Examples/
 
 ## Complete Solutions
 
+* [Actions when opening a file](TODOword/)
 * [Overriding of commands](Overriding/)
 * [Automatic Versioning](Version number/)
 * [Stop build on first error](Errors.Stop build/)
@@ -31,18 +32,10 @@ The documentation [here](../Scripts/MSBuild/)
 
 * [Processing modes](../Modes/)
 
-## Scheme of vsCommandEvent
-
-Read [here](../Scheme/)
-
-[![Scheme of vsCommandEvent projects](../Resources/events_model.png)](../Scheme/)
-
 ## For developers
 
 See [Developer Zone](../Dev/) - *How to build plugin; How to create component for current platform; etc.*
 
 ## Your experience
 
-Feel free to improve any our pages. Click [Edit] button below or Start new page [here](../New/).
-
-*From the short useful script/note to the complete solution for other our users. It can be as part of [donation]({{site.baseurl}}/Donation/) or simple note to self etc.*
+Feel free to improve any pages. Click [Edit] button below or Start new page [here](../New/).
